@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Breadley";
+    src: url("../src/assets/fonts/Breadley.ttf");
+}
+
+@font-face {
+    font-family: "Mercusuar";
+    src: url("../src/assets/fonts/Mercusuar.ttf");
+}
+
+@font-face {
+    font-family: "Sugela";
+    src: url("../src/assets/fonts/Sugela.ttf");
+}
+
+@font-face {
+    font-family: "Letteriot";
+    src: url("../src/assets/fonts/Letteriot.ttf");
+}
+
+@font-face {
+    font-family: "Rachelle";
+    src: url("../src/assets/fonts/Rachelle.ttf");
+}
+
+@font-face {
+    font-family: "Yellows";
+    src: url("../src/assets/fonts/Yellows.otf");
+}
+@font-face {
+    font-family: "Reginald";
+    src: url("../src/assets/fonts/Reginald.ttf");
+}
+
+:root{
+    --color-primary-text: white;
+    --color-primary-text-light:rgb(47, 47, 47)e;
+    --color-link: rgba(178, 178, 178, 0.53);
+    --bg-dark:rgb(24, 24, 24);
+    --bg-light:rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+     overscroll-behavior: auto;
+     background: var(--bg-light);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-light);
+}

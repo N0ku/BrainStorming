@@ -1,0 +1,36 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    position: fixed;
+    z-index: 300;
+    width: 100%;
+    height: 7vh;
+    .background-nav{
+        background-color: rgba(151, 151, 151, 0.663);
+        filter: blur(2px);
+        width: 100%;
+        height: 100%;
+        position:absolute;
+    }
+    nav{
+        z-index:10;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-right: 30px;
+    }
+    li{
+        list-style-type: none;
+        margin:0 20px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 19px;
+    }
+    }
